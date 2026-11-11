@@ -1,0 +1,15 @@
+/* sudo survive — situs dukungan (gaya terminal, sama dengan game) */
+:root { --bg:#0d0e1a; --panel:#1a1c2c; --text:#c7cde8; --dim:#8b92b8; --accent:#5fc8ff; --green:#3de686; --gold:#ffcb52; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font:15px/1.6 "DejaVu Sans Mono", Menlo, Consolas, monospace; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display:flex; gap:16px; align-items:center; margin-bottom:24px; }
+header img { width:72px; height:72px; image-rendering: pixelated; border-radius:16px; }
+h1 { font-size:24px; margin:0; color:var(--green); }
+h2 { font-size:17px; color:var(--accent); margin-top:32px; }
+.prompt::before { content:"$ "; color:var(--green); }
+.card { background:var(--panel); border:1px solid #2c3050; border-radius:10px; padding:16px 18px; margin:16px 0; }
+a { color:var(--accent); }
+nav a { margin-right:16px; }
+small, .dim { color:var(--dim); }
+li { margin:6px 0; }
